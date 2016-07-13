@@ -1,0 +1,70 @@
+.main {
+	width: 900px;
+	padding:20px;
+	box-shadow: 0px 0px 5px #666666;
+	-moz-box-shadow: 0px 0px 5px #666666;
+	-webkit-box-shadow: 0px 0px 5px #666666;
+	border:solid 1px #cccccc;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	margin:30px auto;
+	font-family: Arial;
+	font-size:18px;
+}
+
+.main ul {
+	padding:0px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+.main ul li {
+	float:left;
+	padding:0px;
+	margin:20px 20px 20px 0px;
+	list-style:none;
+}
+.main ul li span, .main ul li input {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.main ul li input {
+	font-size:18px;
+	text-align:center;
+}
+.main ul li.submit input{
+	clear:left;
+	float:none;
+	cursor:pointer;
+	margin-right:0px;
+	box-shadow: 0px 0px 5px #666666;
+	-moz-box-shadow: 0px 0px 5px #666666;
+	-webkit-box-shadow: 0px 0px 5px #666666;
+	border:solid 5px #ffffff;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color:#ffffff;
+	padding:10px 15px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b71500+0,ff0000+100 */
+	background: #b71500; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b71500 0%, #ff0000 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #b71500 0%,#ff0000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #b71500 0%,#ff0000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.main ul li.submit input:hover{
+	background: #ff0000;	
+}
+.main ul li#result {
+	border-bottom:solid 1px #cccccc;
+}
+
+
+.main ul li.submit {
+	clear:left;
+	float:none;
+	text-align:center;	
+}
